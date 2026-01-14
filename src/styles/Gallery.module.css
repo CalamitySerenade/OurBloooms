@@ -1,0 +1,74 @@
+.header{
+    text-align:start;
+    padding:2% 0%;
+}
+.sidebar{
+    text-align: start;
+}
+.gallery{
+    display:grid;
+    grid-template-areas: 'pic1 pic2 pic3'
+                         'pic4 pic5 pic6'
+                         'pic7 pic8 pic9';
+    gap:20px;
+    place-items: end;
+    text-align: start;
+}
+
+.gallery img{
+    width:400px;
+    max-width:92vw;
+}
+
+.img{
+    grid-area:pic1;
+}
+.img1{
+    grid-area:pic2;
+}   
+.img2{
+    grid-area:pic3;
+}
+.img3{
+    grid-area:pic4;
+}
+.img4{
+    grid-area:pic5;
+}
+.img5{
+    grid-area:pic6;
+}
+.img6{
+    grid-area:pic7;
+}
+.img7{
+    grid-area:pic8;
+}
+.img8{
+    grid-area:pic9;
+}
+@media screen and (min-width:800px)and (max-width:1199px){
+    .gallery{
+        grid-template-areas: 'pic1 pic2'
+                             'pic3 pic4'
+                             'pic5 pic6'
+                             'pic7 pic8'
+                             'pic9 .';
+    }
+}
+
+@media screen and (max-width:799px){
+    .gallery{
+        grid-template-areas: 'pic1' 
+                             'pic2'
+                             'pic3' 
+                             'pic4'
+                             'pic5'
+                             'pic6'
+                             'pic7' 
+                             'pic8'
+                             'pic9';
+        place-items: start;
+        grid-template-columns: 1fr; /* Ensure only one column */
+    }
+}
