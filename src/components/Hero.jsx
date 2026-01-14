@@ -1,6 +1,6 @@
 import logo1 from '../assets/logos/logo.png'
-import logo2 from '../assets/logos/Logo-1.png'
-import logo from '../assets/logos/Logo-2.png'
+import logo2 from '../assets/logos/Logo1.png'
+import logo from '../assets/logos/Logo2.png'
 
 import image from '../assets/hero_images/Hero.png'
 import image1 from '../assets/hero_images/Hero1.png'
