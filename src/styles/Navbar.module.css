@@ -1,9 +1,30 @@
 .navbar{
     display:flex;
     justify-content:space-between;
+    align-items:center;
 }
 .ul{
     list-style-type: none;
     display:flex;
     gap:20px;
+}
+.mobileNavbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:bisque;
+    align-items:center;
+}
+.mobileUl{
+    list-style: none;
+    text-align:start;
+    padding-left:0px;
+}
+.mobileUl li{
+    margin-bottom:20px;
+}
+@media screen and (max-width:799px){
+    .navbar{
+        display:none;
+    }
 }
